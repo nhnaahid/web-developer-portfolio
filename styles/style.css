@@ -13,11 +13,11 @@ body {
     background: #FD6E0A;
     border: 0;
     color: white;
-    width: 100px;
+    width: 130px;
     height: 40px;
     font-size: 16px;
-    font-weight: 600;
-    padding: 10px;
+    font-weight: 400;
+    padding: 5px;
 }
 
 /* Navigation bar styling */
@@ -25,6 +25,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -46,4 +47,20 @@ nav li {
 nav li a {
     text-decoration: none;
     color: #474747;
+}
+
+/* Header section style */
+.header {
+    background-color: #FFF8F3;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    /* width: 584px;*/
+    /* height: 500px;  */
 }
