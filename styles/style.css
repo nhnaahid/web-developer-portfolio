@@ -62,12 +62,12 @@ nav li a {
 }
 
 .header-bg {
-    background-image: url(../images/header_bg.png);
+    background-image: url('../images/header_bg.png'), url('../images/developer.png'); 
     background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 400px;
+    background-position: bottom right, top left;
+    background-size: 400px,83px;
 }
-
+/* Banner Style */
 .banner {
     padding: 30px 30px 0px 150px;
     display: flex;
@@ -108,13 +108,15 @@ nav li a {
     font-size: 14px;
     font-weight: 400;
 }
-
+.banner-btn{
+    display: flex;
+    gap: 15px;
+}
 /* Main section Style */
 main {
     max-width: 1140px;
     margin: 0 auto;
 }
-
 .about-info-container {
     display: flex;
     justify-content: space-between;
@@ -149,8 +151,6 @@ main {
     text-align: center;
     font-size: 14px;
     font-weight: 400;
-    line-height: 30px;
-    /* 166.667% */
 }
 
 #what-i-do-description {
@@ -214,7 +214,74 @@ main {
     font-size: 14px;
     font-weight: 400;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 30px;
+}
+
+/* Footer Section Style */
+footer {
+    background-color: #FFF8F3;
+}
+
+.footer-container {
+    display: flex;
+    gap: 150px;
+    margin: 100px 200px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.footer-column-title {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer-column-description {
+    color: #474747;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -5px;
+}
+
+.footer-column-form {}
+
+.footer-column-form-text {
+    display: block;
+    margin-top: 20px;
+    color: #757575;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    width: 100%;
+    /* height: 40px; */
+    padding: 15px 20px;
+}
+
+#footer-textarea {
+    margin-top: 20px;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    background:  #FFF;
+    border: none;
+    width: 100%;
+    padding: 15px 20px;
+
+}
+
+.footer-column-form-submit {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.social-links a{
+    margin-left: 25px;
 }
