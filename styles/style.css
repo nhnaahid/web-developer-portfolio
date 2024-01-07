@@ -87,6 +87,7 @@ nav li a {
     /* top: 30%;  */
     /* left: 90%; */
     /* transform: translate(-50%, -50%); */
+    margin-right: -100px;
 }
 
 .banner-greetings {
